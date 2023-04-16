@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <title>Frontend Store</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen hola" src="img/3.jpg" alt="Imagen del producto">
+            <div class="camisa__contenido">
+                <p class="info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae odio quasi facere. Repellendus,
+                    laborum totam! Iusto, possimus cumque. Adipisci fugit magni alias, ullam et porro laudantium
+                    repudiandae nobis quo ratione.
+                </p>
+                <form class="formulario"> <!--Es para hacer el formulario para unas ventas-->
+                    <select class="formulario__campo">
+                        <option class="formulario__campo__a" disabled selected>--Seleccionar Talla--</option>
+                        <option class="formulario__campo__a">Chica</option>
+                        <option class="formulario__campo__a">Mediana</option>
+                        <option class="formulario__campo__a">Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1"> <!--place holder es un campo para poner la cantidad de productos que desea y el min es 1 para que no sean numeros negativos-->
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito ">
+    
+                </form>
+    
+            </div>
+
+        </div>
+      
+
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2023</p>
+    </footer>
+</body>
+
+</html>
